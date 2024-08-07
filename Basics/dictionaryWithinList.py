@@ -466,6 +466,6 @@ dictLists = [
 ]
 
 for person in dictLists:
-    if person['Postcode'].lower() == 'central' :
+    # if person['Postcode'].lower() == 'central' :
         print(f"Name: {person['name']}, Age: {person['Age']}")
 
