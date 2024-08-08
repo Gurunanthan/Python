@@ -15,5 +15,5 @@ def Name_Reverser_By_Maintaining_Spaces(name):
         reversed_name_with_spaces.insert(pos, " ")
     final_reversed_name = "".join(reversed_name_with_spaces)
     return final_reversed_name
-result = Name_Reverser_By_Maintaining_Spaces("guru nanthan is a good boy")
+result = Name_Reverser_By_Maintaining_Spaces("hello world")
 print(result)
